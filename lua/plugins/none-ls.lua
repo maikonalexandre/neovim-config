@@ -10,8 +10,6 @@ return {
 				null_ls.builtins.completion.luasnip,
 			},
 		})
-
 		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
-		vim.keymap.set("i", "<Tab>", vim.lsp.buf.completion, {})
 	end
 }
