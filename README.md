@@ -1,18 +1,15 @@
-# ⏱️ Measure reader
+# 🥰 This is my neo-vim config, enjoy it
+
+![neovim](https://github.com/user-attachments/assets/28081bbb-cf37-4c2f-b689-c2b9be61319f)
+
 
 <div align="center">
 <p></p>
 
-<a href="#-install">📌 Install</a>
-<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="#-stack">🛠️ Stack</a>
-<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="https://twitter.com/maikonalx">🐦 Twitter</a>
-
 ![GitHub stars](https://img.shields.io/github/stars/maikonalexandre/measure-reader)
 ![GitHub issues](https://img.shields.io/github/issues/maikonalexandre/measure-reader)
 ![GitHub license](https://img.shields.io/github/license/maikonalexandre/measure-reader)
-[![Required Node.JS >=18.0.0](https://img.shields.io/static/v1?label=node&message=%20%3E=18.0.0&logo=node.js&color=3f893e)](https://nodejs.org/about/releases)
+
 
 </div>
 
