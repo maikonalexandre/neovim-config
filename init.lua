@@ -20,10 +20,15 @@ vim.keymap.set('n', '<Down>', '<NOP>', { noremap = true, silent = true })
 vim.keymap.set('n', '<Left>', '<NOP>', { noremap = true, silent = true })
 vim.keymap.set('n', '<Right>', '<NOP>', { noremap = true, silent = true })
 
-vim.keymap.set('n', '<Leader>c', ':call Commentary()<CR>', { noremap = true, silent = true })
 -- open and close terminal right aside
 vim.keymap.set("n", "<C-t>", ":rightbelow vsplit term://fish<CR>", { noremap = true, silent = true })
 vim.keymap.set('t', '<C-t>', '<C-\\><C-n>:bd!<CR>', { noremap = true, silent = true })
+
+-- better way to navigate between windowns
+vim.keymap.set('n', '<C-h>', '<C-w>h', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-j>', '<C-w>j', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-k>', '<C-w>k', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
