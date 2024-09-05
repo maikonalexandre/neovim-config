@@ -8,7 +8,7 @@ return {
     dependencies = { "nvim-lua/plenary.nvim" },
     config = function()
       require("telescope").setup({
-        --preview_command = 'kitty +kitten icat',
+        defaults = { file_ignore_patterns = {"node_modules"} },
         extensions = {
           ["ui-select"] = {
             require("telescope.themes").get_dropdown({}),
