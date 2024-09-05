@@ -1,6 +1,8 @@
 ## 🥰 This is my neo-vim config, enjoy it
 
+<br></br>
 ![neovim](https://github.com/user-attachments/assets/28081bbb-cf37-4c2f-b689-c2b9be61319f)
+<br></br>
 
 ### 🧩 what you will see around here
 
