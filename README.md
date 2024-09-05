@@ -26,6 +26,8 @@
 
 - [**Treesitter**](https://github.com/nvim-treesitter/nvim-treesitter) - A plugin that uses tree-based parsing to provide syntax highlighting and improved code navigation in Neovim.
 
+  **And more**
+
 
 
 
