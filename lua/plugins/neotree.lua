@@ -16,5 +16,13 @@ return {
 
 		vim.keymap.set("n", "<leader>b", ":Neotree toggle left<CR>", {})
 		vim.keymap.set("n", "<leader>n", ":Neotree reveal float<CR>", {})
+
+		-- vim.api.nvim_set_hl(0, "NeoTreeNormal", { bg = "NONE" })
+		-- vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { bg = "NONE" })
+		-- vim.api.nvim_set_hl(0, "NeoTreeEndOfBuffer", { bg = "NONE" })
+		-- vim.api.nvim_set_hl(0, "NeoTreeCursorLine", { bg = "NONE" })
+		-- vim.api.nvim_set_hl(0, "NeoTreeVertSplit", { bg = "NONE", fg = "NONE" })
+		-- vim.api.nvim_set_hl(0, "NeoTreeWinSeparator", { bg = "NONE", fg = "NONE" })
+		-- vim.api.nvim_set_hl(0, "NeoTreeStatusLine", { bg = "NONE", fg = "NONE" })
 	end,
 }
