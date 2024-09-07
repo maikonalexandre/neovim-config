@@ -35,21 +35,25 @@ vim.keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" })
 vim.keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
 vim.keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" })
 
--- disable arrow in normal mode
-vim.keymap.set("n", "<Up>", "<NOP>", { noremap = true, silent = true })
-vim.keymap.set("n", "<Down>", "<NOP>", { noremap = true, silent = true })
-vim.keymap.set("n", "<Left>", "<NOP>", { noremap = true, silent = true })
-vim.keymap.set("n", "<Right>", "<NOP>", { noremap = true, silent = true })
+-- Disable arrows keys
+vim.api.nvim_set_keymap('n', '<Up>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Down>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Left>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Right>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<Up>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<Down>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<Left>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<Right>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<Up>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<Down>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<Left>', '<Nop>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<Right>', '<Nop>', { noremap = true, silent = true })
 
--- open and close terminal right aside
--- vim.keymap.set("n", "<C-t>", ":rightbelow vsplit term://fish<CR>", { noremap = true, silent = true })
--- vim.keymap.set('t', '<C-t>', '<C-\\><C-n>:bd!<CR>', { noremap = true, silent = true })
-
--- better way to navigate between windowns
--- vim.keymap.set('n', '<C-h>', '<C-w>h', { noremap = true, silent = true })
--- vim.keymap.set('n', '<C-j>', '<C-w>j', { noremap = true, silent = true })
--- vim.keymap.set('n', '<C-k>', '<C-w>k', { noremap = true, silent = true })
--- vim.keymap.set('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
+--Move in insetion move using Alt + h/j/k/l
+vim.api.nvim_set_keymap('i', '<A-h>', '<Left>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<A-j>', '<Down>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<A-k>', '<Up>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<A-l>', '<Right>', { noremap = true, silent = true })
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
