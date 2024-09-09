@@ -16,7 +16,7 @@
 
 - [**Lualine**](https://github.com/nvim-lualine/lualine.nvim) - A lightweight and configurable status line for Neovim that displays information about the editor's state and the current file.
 
-- [**Neo-tree**](https://github.com/nvim-neo-tree/neo-tree.nvim) - A plugin that provides a file tree for quick and easy navigation through projects in Neovim.
+- [**Nvim-tree**](https://github.com/nvim-neo-tree/neo-tree.nvim) - A plugin that provides a file tree for quick and easy navigation through projects in Neovim.
 
 - [**NerdCommentary**](https://github.com/preservim/nerdcommenter) - A plugin that simplifies adding and removing comments in various programming languages.
 
