@@ -2,6 +2,8 @@
 
 <br></br>
 ![neovim](https://github.com/user-attachments/assets/28081bbb-cf37-4c2f-b689-c2b9be61319f)
+
+![Captura de tela de 2024-09-05 17-43-45](https://github.com/user-attachments/assets/48241752-3214-4064-a1eb-867c2711c8ab)
 <br></br>
 
 ### 🧩 what you will see around here
