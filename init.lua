@@ -6,8 +6,8 @@ vim.cmd("set shiftwidth=2")
 vim.bo.modifiable = true
 
 vim.wo.number = true
-vim.wo.relativenumber = true
-vim.g.mapleader = " "
+vim.wo.relativenumber = true 
+vim.g.mapleader = " " --space
 
 --insert mode
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true, silent = true })
@@ -68,8 +68,4 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("plugins", {
-  change_detection = {
-    notify = false,
-  },
-})
+require("lazy").setup("plugins", {})
