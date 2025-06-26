@@ -26,7 +26,7 @@
 
 - [**Telescope**](https://github.com/nvim-telescope/telescope.nvim) - A plugin that provides a powerful and extensible search interface for files, commands, and other Neovim functionalities.
 
-- [**Treesitter**](https://github.com/nvim-treesitter/nvim-treesitter) - A plugin that uses tree-based parsing to provide syntax highlighting and improved code navigation in Neovim.
+- [**Treesitter**](https://github.com/nvim-treesitter/nvim-treesitter) - A plugin that uses tree-based parsing to provide syntax highlighting and improved code navigation in Neovim
 
   **And more**
 
