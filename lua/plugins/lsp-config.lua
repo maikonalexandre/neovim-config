@@ -37,7 +37,7 @@ return {
 				capabilities = capabilities,
 			})
 
-      lspconfig.go.setup({
+      lspconfig.gopls.setup({
         capabilities = capabilities,
       })
 
