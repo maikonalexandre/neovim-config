@@ -18,6 +18,9 @@ vim.keymap.set("i", "<C-d>", "<Esc>:wq!<cr>", { noremap = true, silent = true })
 vim.keymap.set("n", "<C-s>", ":w!<cr>", { noremap = true, silent = true })
 vim.keymap.set("n", "<C-d>", "<Esc>:wq!<cr>", { noremap = true, silent = true })
 
+-- visual mode
+vim.keymap.set("v", "<leader>y", '"+y', { desc = "Yank para clipboard" })
+
 -- window management
 vim.keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" })
 vim.keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" })
