@@ -30,7 +30,7 @@ return {
 			})
 
 			lspconfig.lua_ls.setup({
-				capabilites = capabilities,
+				capabilities = capabilities,
 			})
 
 			lspconfig.biome.setup({
@@ -41,10 +41,12 @@ return {
         capabilities = capabilities,
       })
 
-			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
-			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
-			vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
-			vim.keymap.set("n", "<leader>ga", vim.lsp.buf.code_action, {})
+			vim.keymap.set("n", "K", vim.lsp.buf.hover, {desc = "Hover text"})
+			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {desc = "See definition"})
+			vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {desc = "See references"})
+			vim.keymap.set("n", "<leader>ga", vim.lsp.buf.code_action, {desc = "See code actions"})
+      vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "Renomear símbolo" })
+
 		end,
 	},
 }

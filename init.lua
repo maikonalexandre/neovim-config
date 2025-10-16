@@ -25,8 +25,8 @@ vim.keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" })
 vim.keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" })
 
 vim.keymap.set("n", "<leader>su", "<C-w>k", { desc = "Go to upper window " })
-vim.keymap.set("n", "<leader>sl", "<C-w>l", { desc = "Go to left window " })
-vim.keymap.set("n", "<leader>sr", "<C-w>h", { desc = "Go to right window " })
+vim.keymap.set("n", "<leader>sl", "<C-w>h", { desc = "Go to left window " })
+vim.keymap.set("n", "<leader>sr", "<C-w>l", { desc = "Go to right window " })
 vim.keymap.set("n", "<leader>sd", "<C-w>j", { desc = "Go to down window " })
 
 vim.keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", { desc = "Open new tab" })
