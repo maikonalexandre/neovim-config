@@ -10,7 +10,7 @@ vim.wo.relativenumber = true
 vim.g.mapleader = " " --space
 
 --insert mode
-vim.keymap.set("i", "jj", "<Esc>", { noremap = true, silent = true })
+vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true })
 vim.keymap.set("i", "<C-s>", "<Esc>:w!<cr>", { noremap = true, silent = true })
 vim.keymap.set("i", "<C-d>", "<Esc>:wq!<cr>", { noremap = true, silent = true })
 
