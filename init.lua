@@ -12,11 +12,11 @@ vim.g.mapleader = " " --space
 --insert mode
 vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true })
 vim.keymap.set("i", "<C-s>", "<Esc>:w!<cr>", { noremap = true, silent = true })
-vim.keymap.set("i", "<C-d>", "<Esc>:wq!<cr>", { noremap = true, silent = true })
+vim.keymap.set("i", "<C-q>", "<Esc>:wq!<cr>", { noremap = true, silent = true })
 
 -- normal mode
 vim.keymap.set("n", "<C-s>", ":w!<cr>", { noremap = true, silent = true })
-vim.keymap.set("n", "<C-d>", "<Esc>:wq!<cr>", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-q>", "<esc>:wq!<cr>", { noremap = true, silent = true })
 
 -- visual mode
 vim.keymap.set("v", "<leader>y", '"+y', { desc = "Yank para clipboard" })
