@@ -12,6 +12,18 @@ return {
       require("telescope").setup({
         defaults = {
           file_ignore_patterns = { "node_modules" },
+          layout_strategy = "horizontal",
+          layout_config = {
+            width = 0.95,
+            height = 0.85,
+            preview_cutoff = 80, -- se a janela tiver <80 colunas, o preview some ou muda de posição
+            horizontal = {
+              preview_width = 0.5,
+            },
+            vertical = {
+              preview_height = 0.5,
+            },
+          },
           mappings = {
             i = {
               ["<A-k>"] = actions.move_selection_previous, -- move to prev result
