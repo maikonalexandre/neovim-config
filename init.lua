@@ -53,10 +53,10 @@ vim.api.nvim_set_keymap('v', '<Left>', '<Nop>', { noremap = true, silent = true 
 vim.api.nvim_set_keymap('v', '<Right>', '<Nop>', { noremap = true, silent = true })
 
 --Move in insetion move using Alt + h/j/k/l
-vim.api.nvim_set_keymap('i', '<A-h>', '<Left>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('i', '<A-j>', '<Down>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('i', '<A-k>', '<Up>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('i', '<A-l>', '<Right>', { noremap = true, silent = true })
+--vim.api.nvim_set_keymap('i', '<A-h>', '<Left>', { noremap = true, silent = true })
+--vim.api.nvim_set_keymap('i', '<A-j>', '<Down>', { noremap = true, silent = true })
+--vim.api.nvim_set_keymap('i', '<A-k>', '<Up>', { noremap = true, silent = true })
+--vim.api.nvim_set_keymap('i', '<A-l>', '<Right>', { noremap = true, silent = true })
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
