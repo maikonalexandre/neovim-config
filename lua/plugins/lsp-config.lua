@@ -22,11 +22,11 @@ return {
       local lspconfig = require("lspconfig")
 
       lspconfig.ts_ls.setup({
-        capabilites = capabilities,
+        capabilities = capabilities,
       })
 
       lspconfig.html.setup({
-        capabilites = capabilities,
+        capabilities = capabilities,
       })
 
       lspconfig.lua_ls.setup({

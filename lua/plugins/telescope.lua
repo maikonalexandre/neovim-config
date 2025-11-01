@@ -11,7 +11,7 @@ return {
 
       require("telescope").setup({
         defaults = {
-          file_ignore_patterns = { "node_modules" },
+          file_ignore_patterns = { "node_modules", "tmp" },
           layout_strategy = "horizontal",
           layout_config = {
             width = 0.95,
